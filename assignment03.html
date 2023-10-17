@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+    <style>
+        body{
+            background-image: url("images/stable.png");
+            background-repeat: repeat;
+        }
+
+        .text{
+        font-family: Copperplate;
+        color:rgb(250, 250, 210);
+
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+      }
+
+      h1{
+        font-size: 500%;
+        width:50%;
+        margin: 0 auto;;
+        text-align: center;
+      }
+
+      #author{
+        font-size: 200%;
+        width:50%;
+        margin: 0 auto;;
+        text-align: center;
+      }
+
+      #gameIntro{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        color:aliceblue;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      a{
+        color: white;
+        display: block;
+      }
+
+      img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      #designProcess{
+        text-align: center;
+        background-color: rgba(0, 100, 0, 0.5);
+        color:aliceblue;
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      #howToPlay{
+        text-align: center;
+        background-color: rgba(50, 50, 0, 0.5);
+        color:aliceblue;
+        font-family: 'Courier New', Courier, monospace;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1 class="text">Documentation</h1>
+    <p id="author" class="text">Author: Yuheng Ju</p>
+    <div id="gameIntro">
+        <h2>GAME START</h2>
+        <p>This is a endless running game, inspired by Google Chrome game: Dinosaur T-Rex Game. </p>
+        <p>Enjoy the recreated running game in Stardew Valley style.</p>
+        <p>You can click the link below and enjoy the game!</p>
+        <a href="index.html">Click here and Start!</a>
+        <img src="images/GameStart.png">
+    </div>
+
+    <div id="howToPlay">
+        <h2>HOW TO PLAY</h2>
+        <p>1. Start Screen:</p>
+        <ul>
+            <li>You can initiate or restart a new game from the Start Screen state.</li>
+            <li>Please choose the difficulty level before starting.</li>
+            <li>Only after selecting the difficulty level can you click the start button to begin the game.</li>
+        </ul>
+
+        <p>2. Horse Selection (Advanced Feature):</p>
+        <ul>
+            <li>You have the option to select your horse before or even during the game.</li>
+            <li>Your stable, where you can choose your favorite horse, is located at the bottom of the game screen.</li>
+            <li>Be mindful that if you decide to change your horse during the game, make sure to click on the game screen with your mouse. Otherwise, you won't be able to control your horse.</li>
+        </ul>
+
+        <p>3. Running State:</p>
+        <ul>
+            <li>Use the up-arrow key to control your horse.</li>
+            <li>Dodge obstacles and collect hay. Hay will appear at regular intervals.</li>
+            <li>Seize the opportunity to collect hay and feed your horse.</li>
+            <li>Your current score and the highest score achieved will be displayed in the top right corner of the game screen.</li>
+        </ul>
+
+        <p>4. Game Over State:</p>
+        <ul>
+            <li>If you unfortunately collide with an obstacle, the game ends.</li>
+            <li>You can press anywhere to restart the game.</li>
+        </ul>
+
+        <p>Enjoy your endless running adventure with your chosen horse in Stardew Valley style! Good luck!</p>
+        
+    </div>
+    <div id="designProcess">
+        <h2>DESIGN PROCESS</h2>
+        <p>I want to create a simple web-based endless running game, 
+            inspired by the Google Chrome Dinosaur T-Rex Game.
+            <br>
+
+            This Easter Egg is typically hidden on the 'No Internet connection' error 
+            page in Google's Chrome web browser and can be played offline. <br>
+            
+            It impressed me when I was a little kid. <br>
+
+            This is the website of the Dinosaur T-Rex Game: <br>
+            <br>
+            <a href="https://trex-runner.com/">Trex-runner</a>
+            <br>
+            <img src="images/t-rex.png">
+            <br>
+
+            Also, this Dinosaur T-Rex Game can be in different styles. <br>
+            For example, the T-Rex Runner Game in Naruto style: <br>
+            <br>
+            <a href="https://trex-runner.com/naruto/">Naruto</a>
+            <br>
+            <img src="images/naruto.png">
+            <br>
+            
+            Or, the T-Rex Runner Game in Nyan Cat style: <br>
+            <br>
+            <a href="https://trex-runner.com/nyancat/">Nyan Cat</a>
+            <br>
+            <img src="images/cat.png">
+            <br>
+            As a result, I intend to recreate this game in the style of Stardew Valley.  
+            <br>
+            My running game looks like: 
+            <br>
+            <br>
+            <img src="images/GameRunning.png">
+            <br>
+
+            I plan to redesign the controlled character, originally a T-Rex dinosaur. <br> 
+            I use a small horse character found within Stardew Valley as my character. <br>
+            I also use the gate, stone fence, and wood fence as the obstacles. <br>
+            In Stardew Valley, hay comes from dried plants and is used to feed farm animals. <br>
+            So I use hay as the object to collect. <br>
+            Moreover, I would like to build a “stable” in my second canvas. <br>
+            Players can select the horse they like, which is an advanced function beyond the original T-Rex dinosaur game. <br>
+            <br>
+            The graphics were sourced from the Stardew Valley wiki:
+            <br>
+            <br>
+            <img src="inspiration/Stardew Valley Wiki Website.png">
+            <br>
+            <img src="inspiration/Stardew Valley Wiki Horse.png">
+            <br>
+            You can click the link below and check the graphics! <br>
+            <a href="https://stardewvalleywiki.com/Animals#Horse">Horse</a>
+            <a href="https://stardewvalleywiki.com/File:Flooring_01.png">Flooring_01</a>
+            <a href="https://stardewvalleywiki.com/File:Flooring_55.png">Flooring_55</a>
+            <a href="https://stardewvalleywiki.com/Gate">Gate</a>
+            <a href="https://stardewvalleywiki.com/Stone_Fence">Stone Fence</a>
+            <a href="https://stardewvalleywiki.com/Wood_Fence">Wood Fence</a>
+
+            <br>
+            This is the orginal concept for this game. It includes five states of the game. <br>
+            <br>
+
+            <img src="inspiration/Horse Running Original Concept -1.jpg">
+            <img src="inspiration/Horse Running Original Concept -2.jpg">
+            <img src="inspiration/Horse Running Original Concept -3.jpg">
+            <img src="inspiration/Horse Running Original Concept -4.jpg">
+            <img src="inspiration/Horse Running Original Concept -5.jpg">
+            </p>
+
+
+    </div>
+
+    <div>
+
+    </div>
+  </body>
+</html>

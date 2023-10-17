@@ -1,0 +1,27 @@
+﻿I want to create a simple web-based endless running game, inspired by the Google Chrome Dinosaur T-Rex Game. This Easter Egg is typically hidden on the 'No Internet connection' error page in Google's Chrome web browser and can be played offline. It impressed me when I was a little kid. 
+
+
+This is the website of the Dinosaur T-Rex Game:
+https://trex-runner.com/
+
+
+Also, this Dinosaur T-Rex Game can be in different styles. 
+For example, the T-Rex Runner Game in Naruto style:
+https://trex-runner.com/naruto/
+Or, the T-Rex Runner Game in Nyan Cat style:
+https://trex-runner.com/nyancat/
+
+
+As a result, I intend to recreate this game in the style of Stardew Valley.  I plan to redesign the controlled character, originally a T-Rex dinosaur. I use a small horse character found within Stardew Valley as my character. I also use the gate, stone fence, and wood fence as the obstacles. In Stardew Valley, hay comes from dried plants and is used to feed farm animals. So I use hay as the object to collect. 
+
+
+Moreover, I would like to build a “stable” in my second canvas. Players can select the horse they like, which is an advanced function beyond the original T-Rex dinosaur game. 
+
+
+The graphics were sourced from the Stardew Valley wiki:
+https://stardewvalleywiki.com/Animals#Horse
+https://stardewvalleywiki.com/File:Flooring_01.png
+https://stardewvalleywiki.com/File:Flooring_55.png
+https://stardewvalleywiki.com/Gate
+https://stardewvalleywiki.com/Stone_Fence
+https://stardewvalleywiki.com/Wood_Fence
